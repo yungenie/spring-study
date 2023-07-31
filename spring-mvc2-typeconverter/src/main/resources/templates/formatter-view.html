@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li>${resForm.number}: <span th:text="${resForm.number}" ></span></li>
+    <li>${{resForm.number}}: <span th:text="${{resForm.number}}" ></span></li>
+    <li>${resForm.localDateTime}: <span th:text="${resForm.localDateTime}" ></span></li>
+    <li>${{resForm.localDateTime}}: <span th:text="${{resForm.localDateTime}}" ></span></li>
+    <li>${{resForm.date}}: <span th:text="${{resForm.date}}" ></span></li>
+</ul>
+
+</body>
+</html>
